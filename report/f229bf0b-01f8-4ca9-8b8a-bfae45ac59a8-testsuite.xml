@@ -1,0 +1,52 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1568258898518" stop="1568258898599">
+  <name>test01</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1568258898518" status="passed" stop="1568258898524">
+      <name>Test01.test01</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16700-MainThread"/>
+        <label name="host" value="SD-20190615EPSW"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1568258898525" status="passed" stop="1568258898528">
+      <name>Test01.test02</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16700-MainThread"/>
+        <label name="host" value="SD-20190615EPSW"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1568258898530" status="failed" stop="1568258898599">
+      <name>Test01.test03</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;test01.Test01 object at 0x0000017838CE5320&gt;
+
+    def test03(self):
+&gt;       assert 0
+E       assert 0
+
+scripts\test01.py:10: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="16700-MainThread"/>
+        <label name="host" value="SD-20190615EPSW"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
